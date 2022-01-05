@@ -60,5 +60,35 @@ p {
   border-image: linear-gradient(tomato, yellow);
   border-image-slice: 1;
 }
-
-border-image: linear-gradient(#e66465, #9198e5);
+#baby-web-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(#e66465, #9198e5);
+  border-image-slice: 1;
+}
+#font-end-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(#22c1c3, #fdbb2d);
+  border-image-slice: 1;
+}
+.contact-me {
+  text-align: center;
+  width: 85%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
+}
+button {
+  background-image: linear-gradient(gray, lightgray);
+  padding: 10px 40px;
+  font-weight: 700;
+  color: aliceblue;
+  border-radius: 10px;
+}
+footer p {
+  text-align: center;
+  background-image: linear-gradient(gray, lightgray);
+  padding: 10px 40px;
+  font-weight: 700;
+}
